@@ -6,13 +6,17 @@
 
   <title>আশাদুল্লা গালিব | ব্যক্তিগত ওয়েবসাইট</title>
 
-  <meta name="description" content="আশাদুল্লা গালিবের ব্যক্তিগত ওয়েবসাইট। আমার সম্পর্কে, শিক্ষা, কাজ এবং যোগাযোগের তথ্য এখানে পাওয়া যাবে।">
+  <meta name="description" content="আশাদুল্লা গালিবের ব্যক্তিগত ওয়েবসাইট। তিনি একজন শিক্ষার্থী ও Free Fire Gamer।">
 
   <style>
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
     }
 
     body {
@@ -40,7 +44,7 @@
 
     nav {
       background: white;
-      padding: 15px;
+      padding: 15px 10px;
       text-align: center;
       box-shadow: 0 2px 10px rgba(0,0,0,0.08);
       position: sticky;
@@ -51,7 +55,7 @@
     nav a {
       color: #333;
       text-decoration: none;
-      margin: 0 12px;
+      margin: 0 10px;
       font-weight: bold;
     }
 
@@ -74,21 +78,31 @@
       font-size: 28px;
     }
 
-    .card {
+    .info {
       background: #f5f8ff;
       padding: 20px;
       border-radius: 12px;
       margin-top: 15px;
     }
 
-    .contact a {
+    .info p {
+      margin: 8px 0;
+      font-size: 17px;
+    }
+
+    .youtube {
       display: inline-block;
-      margin: 8px 5px;
-      padding: 10px 18px;
-      background: #0066ff;
+      margin-top: 15px;
+      padding: 12px 22px;
+      background: #ff0000;
       color: white;
       text-decoration: none;
       border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .youtube:hover {
+      opacity: 0.85;
     }
 
     footer {
@@ -121,53 +135,53 @@
 
   <nav>
     <a href="#about">আমার সম্পর্কে</a>
-    <a href="#education">শিক্ষা</a>
-    <a href="#work">আমার কাজ</a>
-    <a href="#contact">যোগাযোগ</a>
+    <a href="#education">আমার শিক্ষা</a>
+    <a href="#gaming">গেমিং</a>
+    <a href="#youtube">YouTube</a>
   </nav>
 
   <section id="about">
     <h2>আমার সম্পর্কে</h2>
-    <p>
-      আসসালামু আলাইকুম। আমি আশাদুল্লা গালিব।
-      এটি আমার ব্যক্তিগত ওয়েবসাইট। এখানে আমার
-      সম্পর্কে বিভিন্ন তথ্য, আমার কাজ এবং যোগাযোগের
-      তথ্য পাওয়া যাবে।
-    </p>
+
+    <div class="info">
+      <p>👤 আমি আশাদুল্লা গালিব।</p>
+      <p>🎮 আমি একজন Free Fire Gamer।</p>
+      <p>📚 আমি একজন শিক্ষার্থী।</p>
+    </div>
   </section>
 
   <section id="education">
     <h2>আমার শিক্ষা</h2>
 
-    <div class="card">
-      <h3>শিক্ষাগত পরিচয়</h3>
-      <p>
-        এখানে তোমার স্কুল, কলেজ, শ্রেণি এবং
-        শিক্ষাগত তথ্য লিখতে পারবে।
-      </p>
+    <div class="info">
+      <p>🏫 আমি পঞ্চগড় সরকারি টেকনিক্যাল স্কুল এন্ড কলেজে পড়াশোনা করি।</p>
+      <p>📖 আমি নবম শ্রেণিতে পড়ি।</p>
+      <p>💻 আমি IT (Information Technology) বিভাগে পড়াশোনা করি।</p>
     </div>
   </section>
 
-  <section id="work">
-    <h2>আমার কাজ</h2>
+  <section id="gaming">
+    <h2>আমার গেমিং</h2>
 
-    <div class="card">
-      <h3>আমার প্রজেক্ট</h3>
-      <p>
-        এখানে তোমার তৈরি করা ওয়েবসাইট,
-        প্রজেক্ট বা অন্যান্য কাজের তথ্য দিতে পারবে।
-      </p>
+    <div class="info">
+      <p>🎮 আমি Free Fire খেলতে ভালোবাসি।</p>
+      <p>🔥 গেমিং আমার অন্যতম পছন্দের কাজ।</p>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>যোগাযোগ</h2>
+  <section id="youtube">
+    <h2>আমার YouTube চ্যানেল</h2>
 
-    <div class="contact">
-      <p>আমার সাথে যোগাযোগ করতে নিচের মাধ্যমগুলো ব্যবহার করতে পারেন।</p>
+    <div class="info">
+      <p>আমার YouTube চ্যানেলে Free Fire এবং গেমিং সম্পর্কিত ভিডিও দেখতে পারো।</p>
 
-      <a href="#">Facebook</a>
-      <a href="#">YouTube</a>
+      <a
+        class="youtube"
+        href="https://www.youtube.com/@Galibff0"
+        target="_blank"
+      >
+        ▶️ আমার YouTube চ্যানেল
+      </a>
     </div>
   </section>
 
@@ -176,4 +190,4 @@
   </footer>
 
 </body>
-  </html>
+</html>
